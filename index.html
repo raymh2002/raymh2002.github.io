@@ -6,7 +6,15 @@
     <style>
       /*  GLOBAL STYLES */
       a {
-        color: f00;
+        color: #f00;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-size: 7vw;
+        margin-top: 0;
       }
       /*  SOCIAL STYLES */
       .social-link {
@@ -31,20 +39,29 @@
       .bio-copy a {
         color: green;
       }
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+      }  
+      .hero-home {
+
+      }
     </style>
   </head>
   <body>
+  <div class="full-hero hero-home">
     <h1>I'm an h1</h1>
     <ul>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a href="http://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a href="http://example.com/" class="social-link">Link</a>
       </li>
       <li>
-        <a href="http://example.com/">Link</a>
+        <a href="http://example.com/" class="social-link">Link</a>
       </li>
+  </div>
     </ul>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
