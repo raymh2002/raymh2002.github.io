@@ -61,10 +61,10 @@ a {
 /* HEADER STYLES */
 .header-nav {
   float: right;
+  padding: 5.5vh 60px 0 0;
 }
 .header-nav > li {
   display: inline-block;
-  padding: 5.5vh 60px 0 0
   margin-left: 1em;
 }
 .header-nav a {
@@ -73,6 +73,14 @@ a {
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
+}
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
 }
 
 /* HERO STYLES */
