@@ -192,7 +192,7 @@ h2 ~ p {
 .col-three .col-content {
   flex: 1;
 }
-.col-three .com-aside {
+.col-three .col-aside {
   flex: 0 1 20em;
 }
 
@@ -500,4 +500,14 @@ h2 ~ p {
   background-size: cover;
   height: 6em;
   margin-bottom: 1.5em;
+}
+
+@media (max-width: 800px) {
+  html {
+    box-shadow: none;
+    padding: 0;
+  }
+  .post-aside {
+    display: none;
+  }
 }
