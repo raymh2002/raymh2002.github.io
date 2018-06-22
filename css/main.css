@@ -540,10 +540,7 @@ h2 ~ p {
     font-size: 1.3rem;
     width: auto;
   }
-  /* BLOG STYLES */
-  .post-aside {
-    display: none;
-  }
+
 
   /* GALLERY STYLES */
   
@@ -573,11 +570,18 @@ h2 ~ p {
 
   /* BLOG STYLES */
 
+  .blog-cols {
+    flex-direction: column;
+  }
   .blog-recent {
+    flex: 1;
+    text-align: center;
+  }
+  .post-aside {
     display: none;
   }
-  .blog-previews {
+/*  .blog-previews {
     padding: 0;
-  }
+  }*/
 
 }
