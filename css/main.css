@@ -203,7 +203,7 @@ h2 ~ p {
 }
 
 .drop-menu li ~ li {
-  border-top: 1px dotted rgba(0, 0, 0, 0.1)
+  border-top: 1px dotted rgba(0, 0, 0, 0.3)
 }
 
 .drop-menu li:first-child {
