@@ -241,7 +241,7 @@ h2 ~ p {
   white-space: nowrap;
 }
 
-.drop-menu a:hover {
+.drop-menu li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: #333;
 }
